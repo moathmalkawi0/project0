@@ -1,0 +1,43 @@
+<style>
+  body {
+      position: relative;
+  }
+  #section1 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: black;}
+
+  @media (min-width: 500px) {
+ body {
+     background-color: white;
+ }
+ }
+ @media (max-width: 499px) {
+ body {
+     background-color: yellow;
+ }
+ }
+ @media print {
+         .screen-only {
+             display: none;
+         }
+     }
+     p::selection {
+     color: red;
+     background-color: yellow;
+ }
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+.test {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  </style>

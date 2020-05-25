@@ -1,0 +1,33 @@
+div {
+      font-size: 18px;
+      p {
+          color: blue;
+      }
+      ul {
+          color: green;
+      }
+  }
+
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.email {
+    @extend %message;
+    background-color: green;
+}
+
+.mobileNumber {
+    @extend %message;
+    background-color: orange;
+}
+
+.Telephone {
+    @extend %message;
+    background-color: red;
+}
